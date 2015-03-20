@@ -1,0 +1,43 @@
+body{
+    text-align:center;
+}
+
+#box{
+/*
+    display: black;
+    width:500px;
+    margin:50px auto;
+    padding:15px;
+    text-align:center;
+    border:7px solid blue;
+    outline:7px solid red;
+    background:yellow;
+    //-webkit-transform:scale(1.5);
+    //-webkit-transform:scale(-1,1);
+    //-webkit-transform:rotate(45deg);
+    //-webkit-transform:skew(30deg);
+    //-webkit-transform:translate(30deg);
+    //-webkit-transform:translate(30px,30px) rotate(30deg) scale(0.5);
+    //-webkit-transition:-webkit-transform 1s
+*/
+    display: black;
+    margin:50px auto;
+    padding:15px;
+    text-align:center;
+    width:200px;
+    height:100px;
+    background:yellow;
+    opacity:.5;
+    -webkit-transition:-webkit-transform 2s, width 2s, height 2s, background 2s, opacity 2s;
+
+}
+#box:hover{
+    -webkit-transform:rotate(360deg);
+    width:300px;
+    height:200px;
+    background:orange;
+    opacity:1;
+}
+#text{
+    font:bold 30px Century Gothic;
+}

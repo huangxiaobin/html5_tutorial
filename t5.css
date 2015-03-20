@@ -1,0 +1,25 @@
+//#tuna{
+//    color:red;
+//}
+//p.tuna{
+//    color:blue;
+//}
+
+//p[name]{
+//}
+
+//p[name="bucky"]{
+//    color:blue;
+//}
+
+//p[name^="bacon"]{
+//    color:blue;
+//}
+
+//p[name$="bacon"]{
+//    color:blue;
+//}
+
+p[name*="bacon"]{
+    color:blue;
+}
